@@ -1,0 +1,42 @@
+<!-- <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.testcicmic.MainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+
+</RelativeLayout>-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	
+	<Button android:layout_width="150dp" android:layout_height="150dp"
+	    	android:minWidth="75dp"		 android:minHeight="50dp"
+		 	android:layout_marginLeft="30dp" android:layout_marginTop="105dp" 
+		 	android:onClick="onClick" android:text="Play Live" />
+	
+	<Button android:layout_width="150dp" android:layout_height="150dp"
+		    android:minWidth="75dp"     android:minHeight="50dp"
+		    android:layout_marginRight="30dp" android:layout_marginTop="105dp" 
+		android:layout_alignParentRight="true" android:text="Settings" />
+	
+	<Button android:layout_width="150dp" android:layout_height="150dp"
+	        android:minWidth="75dp"     android:minHeight="50dp"
+		    android:layout_marginLeft="30dp" android:layout_marginBottom="105dp" 
+		android:layout_alignParentBottom="true" android:text="Play Computer" />
+	
+	<Button android:layout_width="150dp" android:layout_height="150dp"
+	        android:minWidth="75dp"     android:minHeight="50dp"
+		    android:layout_marginRight="30dp" android:layout_marginBottom="105dp"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentBottom="true" android:text="Play Online" />
+</RelativeLayout>
+
